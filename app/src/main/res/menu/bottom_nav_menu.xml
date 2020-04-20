@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- TODO use vector image instead -->
+    <item
+        android:id="@+id/navigation_city1"
+        android:icon="@drawable/map_pin"
+        android:title="@string/title_city1" />
+
+    <!-- TODO use vector image instead -->
+    <item
+        android:id="@+id/navigation_city2"
+        android:icon="@drawable/map_pin"
+        android:title="@string/title_city2" />
+
+    <!-- TODO use vector image instead -->
+    <item
+        android:id="@+id/navigation_city3"
+        android:icon="@drawable/map_pin"
+        android:title="@string/title_city3" />
+
+</menu>

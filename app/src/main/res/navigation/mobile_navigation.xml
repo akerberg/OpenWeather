@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_city1">
+
+    <fragment
+        android:id="@+id/navigation_city1"
+        android:name="com.akerberg.openweather.ui.WeatherFragment"
+        android:label="@string/title_city1">
+        <argument
+            android:name="cityId"
+            android:defaultValue="2711537"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_city2"
+        android:name="com.akerberg.openweather.ui.WeatherFragment"
+        android:label="@string/title_city2">
+        <argument
+            android:name="cityId"
+            android:defaultValue="2692965"
+            app:argType="integer" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_city3"
+        android:name="com.akerberg.openweather.ui.WeatherFragment"
+        android:label="@string/title_city3">
+        <argument
+            android:name="cityId"
+            app:argType="integer"
+            android:defaultValue="2673722" />
+    </fragment>
+</navigation>
